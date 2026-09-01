@@ -13,3 +13,4 @@ def response(flow):
     if flow.response.content:
         print(f"[BODY] {flow.response.content.decode('utf-8', errors='ignore')}")
     print("---")
+    
